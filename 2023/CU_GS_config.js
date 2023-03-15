@@ -131,11 +131,11 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder Count<br>(Fed another bot)",
-      "code": "tfc",
-      "gsCol": "feedCount",
-      "type": "counter"
-    },
+    // { "name": "Feeder Count<br>(Fed another bot)",
+    //   "code": "tfc",
+    //   "gsCol": "feedCount",
+    //   "type": "counter"
+    // },
     { "name": "Was Defended",
       "code": "wd",
       "gsCol": "wasDefended",
@@ -146,11 +146,11 @@ var config_data = `
       "gsCol": "defenderTeamNum",
       "type": "text"
     },
-    { "name": "Smart Placement<br>(creates Links)",
-      "code": "lnk",
-      "gsCol": "smartPlacement",
-      "type": "bool"
-    },
+    // { "name": "Smart Placement<br>(creates Links)",
+    //   "code": "lnk",
+    //   "gsCol": "smartPlacement",
+    //   "type": "bool"
+    // },
     { "name": "Floor Pick UP",
       "code": "fpu",
       "gsCol": "floorPickUp",
@@ -202,7 +202,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Links Scored",
+    { "name": "Links Scored by Alliance",
       "code": "ls",
       "gsCol": "linksScored",
       "type": "counter"
@@ -220,10 +220,18 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Swerve drive?",
+    { "name": "Drivetrain Type?",
       "code": "sd",
-      "gsCol": "swerveDrive",
-      "type": "bool"
+      "gsCol": "driveTrain",
+      "type": "radio"
+      "choices":{
+        "s": "Swerve<br>",
+        "t": "Tank<br>",
+        "m": "Mechanum<br>",
+        "o": "Other<br>",
+        "x": "Not Scouted"
+      },
+      "defaultValue": "x"
     },
     { "name": "Speed Rating",
       "code": "sr",
@@ -248,16 +256,24 @@ var config_data = `
       "gsCol": "tippy",
       "type": "bool"
     },
-    { "name": "Dropped Cones (>2)",
+    { "name": "Dropped Game Pieces (>2)",
       "code": "dc",
-      "gsCol": "droppedCones",
+      "gsCol": "droppedGamePieces",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
       "gsCol": "goodPartners",
-      "type": "bool"
+      "type": "radio",
+      "choices":{
+        "d": "Do Not Pick<br>",
+        "k": "They're Alright<br>",
+        "l": "Likely Pick<br>",
+        "i": "Ideal Pick<br>",
+        "x": "Not Scouted"
+      },
+      "defaultValue":"x"
     },
     { "name": "Comments",
       "code": "co",
