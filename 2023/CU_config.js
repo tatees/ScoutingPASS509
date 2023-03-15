@@ -75,14 +75,14 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Crossed Cable",
-      "code": "acc",
-      "type": "bool"
-    },
-    { "name": "Crossed Charging Station",
-      "code": "acs",
-      "type": "bool"
-    },
+    // { "name": "Crossed Cable",
+    //   "code": "acc",
+    //   "type": "bool"
+    // },
+    // { "name": "Crossed Charging Station",
+    //   "code": "acs",
+    //   "type": "bool"
+    // },
     { "name": "Mobility?",
       "code": "am",
       "type": "bool"
@@ -116,11 +116,11 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    { "name": "Feeder Count<br>(Fed another bot)",
-      "code": "tfc",
-      "type": "counter",
-      "cycleTimer": "tct"
-    },
+    // { "name": "Feeder Count<br>(Fed another bot)",
+    //   "code": "tfc",
+    //   "type": "counter",
+    //   "cycleTimer": "tct"
+    // },
     { "name": "Was Fed<br>Game Pieces",
       "code": "wf",
       "type": "bool"
@@ -133,10 +133,10 @@ var config_data = `
       "code": "who",
       "type": "text"
     },
-    { "name": "Smart Placement<br>(creates Links)",
-      "code": "lnk",
-      "type": "bool"
-    },
+    // { "name": "Smart Placement<br>(creates Links)",
+    //   "code": "lnk",
+    //   "type": "bool"
+    // },
     { "name": "Floor Pickup",
       "code": "fpu",
       "type": "radio",
@@ -170,7 +170,7 @@ var config_data = `
       "code": "dn",
       "type": "counter"
     },
-    { "name": "Links Scored<br>(by alliance)",
+    { "name": "Links Scored<br> by Alliance",
       "code": "ls",
       "type": "counter"
     }
@@ -201,7 +201,14 @@ var config_data = `
     },
     { "name": "Swerve drive?",
       "code": "sd",
-      "type": "bool"
+      "type": "radio",
+      "choices": {
+        "s": "Swerve<br>",
+        "t": "Tank<br>",
+        "m": "Mechanum<br>",
+        "x": "Not Scouted"
+      },
+      "defaultValue": "x"
     },
     { "name": "Speed Rating",
       "code": "sr",
@@ -223,14 +230,22 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Dropped Cones (>2)",
+    { "name": "Dropped Game Pieces (>2)",
       "code": "dc",
       "type": "bool"
     },
     { "name": "Make good<br>alliance partner?",
       "tooltip": "Would you want this robot on your alliance in eliminations?",
       "code": "all",
-      "type": "bool"
+      "type": "radio",
+      "choices": {
+        "d": "Do Not Pick<br>",
+        "k": "They're Alright<br>",
+        "l": "Likely Pick<br>",
+        "i": "Ideal Pick<br>",
+        "x": "Not Scouted"
+      },
+      "defaultValue":"x"
     },
     { "name": "Comments",
       "code": "co",
