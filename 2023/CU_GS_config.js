@@ -131,11 +131,11 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    // { "name": "Feeder Count<br>(Fed another bot)",
-    //   "code": "tfc",
-    //   "gsCol": "feedCount",
-    //   "type": "counter"
-    // },
+    { "name": "Feeder Count<br>(Fed another bot)",
+      "code": "tfc",
+      "gsCol": "feedCount",
+      "type": "counter"
+    },
     { "name": "Was Defended",
       "code": "wd",
       "gsCol": "wasDefended",
@@ -146,11 +146,11 @@ var config_data = `
       "gsCol": "defenderTeamNum",
       "type": "text"
     },
-    // { "name": "Smart Placement<br>(creates Links)",
-    //   "code": "lnk",
-    //   "gsCol": "smartPlacement",
-    //   "type": "bool"
-    // },
+    { "name": "Smart Placement<br>(creates Links)",
+      "code": "lnk",
+      "gsCol": "smartPlacement",
+      "type": "bool"
+    },
     { "name": "Floor Pick UP",
       "code": "fpu",
       "gsCol": "floorPickUp",
