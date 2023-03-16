@@ -195,7 +195,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Swerve drive?",
+    { "name": "Drivetrain type?",
       "code": "sd",
       "type": "radio",
       "choices": {
