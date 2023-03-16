@@ -75,14 +75,14 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    // { "name": "Crossed Cable",
-    //   "code": "acc",
-    //   "type": "bool"
-    // },
-    // { "name": "Crossed Charging Station",
-    //   "code": "acs",
-    //   "type": "bool"
-    // },
+    { "name": "Crossed Cable",
+      "code": "acc",
+      "type": "bool"
+    },
+    { "name": "Crossed Charging Station",
+      "code": "acs",
+      "type": "bool"
+    },
     { "name": "Mobility?",
       "code": "am",
       "type": "bool"
@@ -116,11 +116,11 @@ var config_data = `
       "shape": "circle 12 black red true",
       "cycleTimer": "tct"
     },
-    // { "name": "Feeder Count<br>(Fed another bot)",
-    //   "code": "tfc",
-    //   "type": "counter",
-    //   "cycleTimer": "tct"
-    // },
+    { "name": "Feeder Count<br>(Fed another bot)",
+      "code": "tfc",
+      "type": "counter",
+      "cycleTimer": "tct"
+    },
     { "name": "Was Fed<br>Game Pieces",
       "code": "wf",
       "type": "bool"
@@ -133,10 +133,10 @@ var config_data = `
       "code": "who",
       "type": "text"
     },
-    // { "name": "Smart Placement<br>(creates Links)",
-    //   "code": "lnk",
-    //   "type": "bool"
-    // },
+    { "name": "Smart Placement<br>(creates Links)",
+      "code": "lnk",
+      "type": "bool"
+    },
     { "name": "Floor Pickup",
       "code": "fpu",
       "type": "radio",
