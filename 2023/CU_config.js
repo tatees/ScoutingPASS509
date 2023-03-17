@@ -112,7 +112,7 @@ var config_data = `
       "code": "wf",
       "type": "bool"
     },
-    { "name": "Was Defended",
+    { "name": "Got Defended",
       "code": "wd",
       "type": "bool"
     },
