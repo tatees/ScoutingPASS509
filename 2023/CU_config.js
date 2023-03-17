@@ -145,7 +145,7 @@ var config_data = `
         "d": "Docked (Not Engaged)<br>",
         "e": "Engaged<br>",
         "a": "Attempted but failed<br>",
-        "x": "Not attempted"
+        "x": "Not attempted (Died)"
       },
       "defaultValue": "x"
     },
