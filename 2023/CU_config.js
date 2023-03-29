@@ -138,11 +138,11 @@ var config_data = `
         "u": "Upright<br>",
         "k": "Knocked Over<br>",
         "b": "Both<br>",
-        "n": "Not Picked Up / Fed<br>",
+        "n": "Not Picked Up<br>",
         "x": "Not Scouted"
       },
       "defaultValue": "x"
-    },
+    }
   ],
   "endgame": [
     { "name": "Docking Timer",
