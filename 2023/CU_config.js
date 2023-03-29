@@ -157,7 +157,8 @@ var config_data = `
         "d": "Docked (Not Engaged)<br>",
         "e": "Engaged<br>",
         "a": "Attempted but failed<br>",
-        "x": "Not attempted (Died)"
+        "m": "Died/Immobolized<br>",
+        "x": "Not attempted"
       },
       "defaultValue": "x"
     },
@@ -217,17 +218,17 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Robot Weight",
-      "code": "rw",
-      "type": "radio",
-      "choices": {
-        "l": "Light<br>",
-        "a": "Average<br>",
-        "h": "Heavy<br>"
-        "x": "Not Scouted"
-      },
-      "defaultValue":"x"
-    },
+    // { "name": "Robot Weight",
+    //   "code": "rw",
+    //   "type": "radio",
+    //   "choices": {
+    //     "l": "Light<br>",
+    //     "a": "Average<br>",
+    //     "h": "Heavy<br>"
+    //     "x": "Not Scouted"
+    //   },
+    //   "defaultValue":"x"
+    // },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
