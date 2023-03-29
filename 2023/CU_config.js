@@ -142,13 +142,13 @@ var config_data = `
         "x": "Not Scouted"
       },
       "defaultValue": "x"
-    }
-  ],
-  "endgame": [
+    },
     { "name": "Docking Timer",
       "code": "dt",
       "type": "timer"
-    },
+    }
+  ],
+  "endgame": [
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
