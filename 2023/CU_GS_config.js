@@ -165,6 +165,7 @@ var config_data = `
     }
     { "name": "Cone Rotation?",
       "code": "cr",
+      "gsCol": "coneRotation",
       "type": "radio",
       "choices":{
         "u": "Upright<br>",
@@ -260,6 +261,7 @@ var config_data = `
     },
     { "name": "Robot Weight",
       "code": "rw",
+      "gsCol": "robotWeight",
       "type": "radio",
       "choices": {
         "l": "Light<br>",
