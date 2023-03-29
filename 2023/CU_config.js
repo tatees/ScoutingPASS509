@@ -130,7 +130,19 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    }
+    },
+    { "name": "Cone Rotation?",
+      "code": "cr",
+      "type": "radio",
+      "choices":{
+        "u": "Upright<br>",
+        "k": "Knocked Over<br>",
+        "b": "Both<br>",
+        "n": "Not Picked Up / Fed<br>",
+        "x": "Not Scouted"
+      },
+      "defaultValue": "x"
+    },
   ],
   "endgame": [
     { "name": "Docking Timer",
