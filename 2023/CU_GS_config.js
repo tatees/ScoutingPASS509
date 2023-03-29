@@ -258,6 +258,17 @@ var config_data = `
       },
       "defaultValue":"3"
     },
+    { "name": "Robot Weight",
+      "code": "rw",
+      "type": "radio",
+      "choices": {
+        "l": "Light<br>",
+        "a": "Average<br>",
+        "h": "Heavy<br>"
+        "x": "Not Scouted"
+      },
+      "defaultValue":"x"
+    },
     { "name": "Died/Immobilized",
       "code": "die",
       "gsCol": "diedOrImmobilized",

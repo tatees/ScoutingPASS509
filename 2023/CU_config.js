@@ -203,7 +203,7 @@ var config_data = `
         "m": "Mechanum<br>",
         "x": "Not Scouted"
       },
-      "defaultValue": "x"
+      "defaultValue":"x"
     },
     { "name": "Speed Rating",
       "code": "sr",
@@ -216,6 +216,17 @@ var config_data = `
         "5": "5 (fast)"
       },
       "defaultValue":"3"
+    },
+    { "name": "Robot Weight",
+      "code": "rw",
+      "type": "radio",
+      "choices": {
+        "l": "Light<br>",
+        "a": "Average<br>",
+        "h": "Heavy<br>"
+        "x": "Not Scouted"
+      },
+      "defaultValue":"x"
     },
     { "name": "Died/Immobilized",
       "code": "die",
