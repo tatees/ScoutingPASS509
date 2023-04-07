@@ -178,6 +178,7 @@ var config_data = `
       "choices": {
         "n": "Not Effective<br>",
         "a": "Average<br>",
+        "d": "Decent<br>",
         "v": "Very Effective<br>",
         "x": "Not Observed"
       },
