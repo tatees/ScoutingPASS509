@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "",
+      "defaultValue": "RiverRage",
       "disabled": "true"
     },
     { "name": "Match Level",
